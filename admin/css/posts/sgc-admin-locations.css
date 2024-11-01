@@ -1,0 +1,62 @@
+/* Locations */
+table.sgc-location-tee-holes {
+    margin-left: 32px;
+}
+table.sgc-location-tee-stats {
+    margin-top: 32px;
+    margin-left: 96px;
+}
+th.sgc-location-top {
+    vertical-align: text-top;
+}
+th.scg-location-hole-number {
+    text-align: center;
+}
+ul.sgc-location-tee {
+    list-style-type: none;
+    margin-left: 0.1em
+}
+li.sgc-location-tee {
+    margin-bottom: 4px;
+    border-bottom: 1px solid #eee;
+}
+li.sgc-location-tee a{
+    font-weight: bold;
+}
+.sgc-location-tee-info {
+    display: inline-block;
+}
+label.sgc-location-tee-info {
+    display: block;
+    font-weight: bold;
+}
+div.sgc-location-tee-data {
+    display: inline-block;
+    margin-left: 2.3em;
+}
+label.sgc-location-tee-data {
+    display: block;
+    font-weight: bold;
+}
+input.sgc-location-tee {
+    appearance: textfield;
+    width: 3.75em;
+}
+input.sgc-location-isdefault {
+    margin-bottom: 0.8em;
+    margin-top: 1.7em;
+}
+input.sgc-location-tee::-webkit-outer-spin-button,
+input.sgc-location-tee::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input.sgc-location-rating,
+input.sgc-location-par,
+input.sgc-location-slope {
+    width: 4.5em;
+}
+h1.sgc-location-tee {
+    font-size: 1.6em;
+    font-weight: bold;
+}

@@ -1,0 +1,168 @@
+=== Simple Golf Club ChangeLog ===
+For a complete list of changes see the commits page
+https://gitlab.com/mlinton/simplegolfclub/-/commits/master
+
+= 1.7.0b =
+Oct 25, 2024
+- hotfix for depricated FILTER_SANITIZE_STRING
+
+= 1.7.0 =
+Oct 24, 2024
+ - Added Shortcodes for SGC Posts
+ - Removed requirement for custom theme
+ - Remove Redundant code
+ - Refactored public code
+
+= 1.6.24 =
+October 19, 2024
+ - Tested on WP 6.6
+ 
+= 1.6.23b =
+March 14, 2024
+ - Tested on WP 6.4
+ - Updated API structure
+
+= 1.6.23 =
+March 9, 2023
+ - Tested on WP 6.1
+ - Update REST API
+ - Misc UI Fixes
+ - Misc Bug Fixes
+
+= 1.6.21 =
+Jul 4, 2022
+- Overhaul of Scorecards
+- Scorecard events now uses Select search
+- Fixed date issues
+- Misc bug fixes
+
+= 1.6.19 =
+June 13, 2022
+- Tested on WP v6.0
+- Now checks for SGC_COMPATIBLE in themes
+- Event Team UI now uses Select Search
+- Misc API Updates
+- Misc bug fixes
+- Misc UI fixes
+
+= 1.6.15 =
+March 30, 2022
+- Tested on WP v5.9.2
+- Added config option to display posts on home page feed
+- sgc_event_getplayers and sgc_event_togglecheckin now use hashed phone and email
+- Misc bug fixes
+- Misc UI fixes
+
+= 1.6.13 =
+September 4, 2021
+- Modified player and team management
+- Misc bug fixes
+- Misc UI fixes
+
+= 1.6.11 =
+January 29, 2021
+* Tested for WordPress 5.6
+* Added ability to define a default tee for each location
+* Misc bug fixes
+
+= 1.6.10 =
+August 23, 2020
+* Location tees can now be cloned
+* Updated Player team selection
+* Tweaks to dashboard widget
+* Changed fields to reflect their data types
+* Misc. updates and fixes
+
+= 1.6.3 =
+April 4, 2020
+* Fixed misc. issues with latest Wordpress updates
+* Fixed Javascript issues on some configurations
+* Fixed date issue for scorecards
+
+= 1.6.2 =
+November 1, 2019
+* Events now use GMT timestamps for date and time values
+* Minor Usability fixes
+* More Bug Fixes
+
+= 1.6.1 =
+October 22, 2019
+* Minor Bug Fixes
+
+= 1.6.0 =
+October 20, 2019
+* Added large list support for Player Teams
+* Added large list support for Event Locations and Teams
+* UI usability and consistency changes
+* Other bug fixes
+
+= 1.5.6 =
+July 29, 2019
+* Fixed issues with user input sanitizing (Per Wordpress.org's recommendations)
+* fixed issues with output escaping (Per Wordpress.org's recommendations)
+
+= 1.5.5 =
+July 24, 2019
+* Added ID check to toggle checkin
+* Removed Website info for players
+* General code cleanup
+
+= 1.5.0 =
+July 18, 2019
+* Added Shortcodes for Events, Scorecards, and Players
+* Added Dashboard Widget to show Past and Upcoming events
+* Misc Bug Fixes and Improvements
+
+= 1.4.3 =
+July 8, 2019
+* Re-wrote Groups Javascript code
+* Re-wrote Tees Javascript code
+* Misc. Bug Fixes and improvements
+
+= 1.4.0 =
+June 24, 2019
+* General cleanup and bug fixing
+
+= 1.3.2 =
+June 18, 2019
+* Added tee support for score cards
+* Added multi-team support for players
+* misc improvements
+
+= 1.3.0 =
+June 15, 2019
+* Large refactoring of code base
+* Added public PHP and REST API calls to allow themes access to custom post data
+* Removed temporary code that modified post content within the plugin
+* Removed admin settings that are no longer needed
+* Lots of bug fixes
+
+= 1.2.5 =
+June 11, 2019
+* Added default Tee information to Events
+* Misc. bug fixes
+
+= 1.2.4b =
+Jan. 28, 2019
+* Added support for Gutenberg editor for most custom post types.
+  Score cards still use the classic editor.
+
+= 1.2.0 =
+Jan 9, 2019
+* Added Multi-Tee Functionality for Locations
+* Misc bug fixes
+
+= 1.1.0 =
+Dec. 19, 2018
+* Re-arranged admin menu
+* Fixed an un-needed limitation when fetching player list
+* Added plugin configuration options
+* Modified Location meta information
+* Modified Player info
+* Misc. bug fixes
+* Misc. code cleanup
+* Misc. UI improvements
+
+= 1.0 =
+Dec. 4, 2019
+* Initial Release

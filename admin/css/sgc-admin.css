@@ -1,0 +1,50 @@
+/* *
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* General */
+.scg-container {
+    margin: 2px;
+}
+.sgc-container-clear {
+    clear: both;
+}
+th.sgc-table-top {
+    vertical-align: text-top;
+}
+small.sgc-action {
+    font-size: 0.8em;
+    margin-right: 0.8em;
+    margin-left: 0.4em;
+}
+.sgc-disabled {
+    cursor: wait;
+    opacity: 0.5;
+}
+/* Buttons */
+a.sgc-button {
+ background-color: #2271b1;
+ border: 2px solid #2271b1;
+ border-radius: 3px;
+ padding: 2px 4px;
+ color: #fff;
+ text-decoration: none;
+}
+
+a.sgc-button:hover {
+ background-color: #135e96;
+}
+
+a.sgc-button-delete {
+ border: 2px solid #800;
+ background-color: #933;
+}
+a.sgc-button-delete:hover {
+ background-color: #800;
+}
+
+/* Pickadate tweaks */
+input[readonly] {
+    background: #fff;
+}

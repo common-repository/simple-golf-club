@@ -1,0 +1,30 @@
+/* Scorecard */
+div #postcustom, #titlewrap, #postdivrich, #minor-publishing-actions, #slugdiv {
+    display: none;
+}
+table.sgc-scorecard {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    margin-left: 1em;
+}
+th.sgc-scorecard {
+    border: 1px solid grey;
+    padding-right: 1em;
+    padding-left: 0.3em;
+    text-align: right;
+}
+td.sgc-scorecard-hole {
+    border: 1px solid grey;
+    padding: 0;
+    text-align: center;
+}
+input.sgc-scorecard-hole {
+    width: 4em;
+}
+td.sgc-scorecard-stats {
+    padding-left: 1.1em;
+}
+input.sgc-scorecard-stats {
+    margin-right: 1.5em;
+    width: 5.5em;
+}

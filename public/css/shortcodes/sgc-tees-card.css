@@ -1,0 +1,103 @@
+/**
+ * sgc-tees-card shortcode styling
+ */
+
+.sgc-sc-tees-card {
+    font-size: 0.876em;
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sgc-sc-tees-card .tabs {
+    position: relative;
+    margin: 3rem 0;
+    background: #1abc9c;
+    height: 21.68rem;
+}
+
+.sgc-sc-tees-card .tabs::before,
+.sgc-sc-tees-card .tabs::after {
+    content: "";
+    display: table;
+}
+
+.sgc-sc-tees-card .tabs::after {
+    clear: both;
+}
+
+.sgc-sc-tees-card .tab {
+    float: left;
+}
+
+.sgc-sc-tees-card .tab-switch {
+    display: none;
+}
+
+.sgc-sc-tees-card .tab-label {
+    position: relative;
+    display: block;
+    line-height: 2.75em;
+    height: 3em;
+    padding: 0 1.618em;
+    background: #1abc9c;
+    border-right: 0.125rem solid #16a085;
+    color: #fff;
+    cursor: pointer;
+    top: 0;
+    transition: all 0.25s;
+}
+
+.sgc-sc-tees-card .tab-label:hover {
+    top: -0.25rem;
+    transition: top 0.25s;
+}
+
+.sgc-sc-tees-card .tab-content {
+    height: 19rem;
+    position: absolute;
+    z-index: 1;
+    top: 2.75em;
+    left: 0;
+    padding: 0.2rem;
+    background: #fff;
+    color: #2c3e50;
+    opacity: 0;
+    transition: all 0.35s;
+    width: 100%;
+}
+
+.sgc-sc-tees-card .tab-content .stats ul {
+    list-style-type: none;
+}
+
+.sgc-sc-tees-card .tab-content .stats li {
+    float: right;
+    margin-right: 1em;
+}
+
+.sgc-sc-tees-card .tab-content .tees table caption  {
+    text-align: left;
+}
+.sgc-sc-tees-card .tab-content .tees table th,
+.sgc-sc-tees-card .tab-content .tees table td  {
+    text-align: center;
+    width: 10%;
+    padding: 0;
+}
+
+.sgc-sc-tees-card .tab-switch:checked+.tab-label {
+    background: #fff;
+    color: #2c3e50;
+    border-bottom: 0;
+    border-right: 0.125rem solid #fff;
+    transition: all 0.35s;
+    z-index: 1;
+    top: -0.0625rem;
+}
+
+.sgc-sc-tees-card .tab-switch:checked+label+.tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+}

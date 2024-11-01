@@ -1,0 +1,12 @@
+/**
+ * sgc-event-checkin-card shortcode styling
+ */
+
+ .sgc-event-checkin-card table th,
+ .sgc-event-checkin-card table td {
+    padding-right: 6.3em;
+ }
+
+ .sgc-event-checkin-card table th {
+    text-align: left;
+ }

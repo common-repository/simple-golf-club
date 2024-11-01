@@ -1,0 +1,7 @@
+/**
+ * sgc-teams-card shortcode styling
+ */
+
+.sgc-player-teams-card ul li {
+    list-style-type: none;
+}

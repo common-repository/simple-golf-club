@@ -1,0 +1,17 @@
+/**
+ * sgc-events-card shortcode styling
+ */
+
+.sgc-sc-events-card {
+    font-size: 0.876em;
+
+}
+
+.sgc-sc-events-card table th,
+.sgc-sc-events-card table td {
+    text-align: left;
+}
+
+.sgc-sc-events-card table td {
+    padding-right: 2em;
+}

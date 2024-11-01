@@ -1,0 +1,11 @@
+/**
+ * sgc-groups-card shortcode styling
+ */
+
+ .sgc-event-groups-card ul li {
+    list-style-type: none;
+ }
+
+ .sgc-event-groups-card .group .group-name {
+    font-weight: bold;
+ }

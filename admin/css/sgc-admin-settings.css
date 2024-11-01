@@ -1,0 +1,56 @@
+/* Settings */
+.sgc-settings {
+    margin-top: 2em;
+}
+
+.sgc-settings.shortcodes ul.index {
+    margin-bottom: 4em;
+}
+.sgc-settings.shortcodes ul.index > li {
+    margin-bottom: 1.4em;
+}
+.sgc-settings.shortcodes ul.index > li.heading {
+    font-size: 1.1em;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0 2em;
+    vertical-align: top;
+}
+.sgc-settings.shortcodes ul.index > li > ul {
+    margin-left: 2em;
+}
+.sgc-settings.shortcodes .shortcode .content {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.sgc-settings.shortcodes h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.sgc-settings.shortcodes .shortcode {
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.sgc-settings.shortcodes .shortcode table  {
+    table-layout: fixed;
+}
+.sgc-settings.shortcodes .shortcode table tr:nth-child(odd) {
+    background-color: #fff;
+}
+.sgc-settings.shortcodes .shortcode table th {
+    background-color: #ccc;
+}
+.sgc-settings.shortcodes .shortcode table th:nth-child(-n + 2) {
+    width: 8%;
+    min-width: 120px;
+}
+.sgc-settings.shortcodes .shortcode table th,
+.sgc-settings.shortcodes .shortcode table td {
+    white-space: nowrap;
+    padding: .2em .2em;
+}
+.sgc-settings.shortcodes hr {
+    border: 1px solid darkgray;
+    margin: 1em 1em;
+}

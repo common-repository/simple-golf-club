@@ -1,0 +1,18 @@
+/**
+ * sgc-event-info-card shortcode styling
+ */
+
+ .sgc-event-info-card ul li {
+    list-style-type: none;
+ }
+
+ .sgc-event-info-card .event {
+    font-weight: bold;
+ }
+
+ .sgc-event-info-card .date,
+ .sgc-event-info-card .location,
+ .sgc-event-info-card .team,
+ .sgc-event-info-card .tee {
+    font-weight: normal;
+ }

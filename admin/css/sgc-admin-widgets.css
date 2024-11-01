@@ -1,0 +1,30 @@
+/* Widgets */
+.sgc-widget-events {
+    display: inline-block;
+    max-width: 48%;
+    margin: 2px;
+    width: 400px;
+}
+.sgc-widget-events h3 {
+    border-bottom: 1px solid #131313;
+}
+.sgc-widget-event-item {
+    white-space: nowrap;
+    margin-bottom: 0.1em;
+}
+.sgc-widget-event-date {
+    font-weight: bold;
+}
+.sgc-widget-event-link {
+    display: table;
+    margin-left: 1em;
+    width: 95%;
+    border-bottom: 1px solid #cdcdcd;
+}
+.sgc-widget-event-link > a {
+    font-weight: bold;
+}
+.sgc-widget-event-link > small {
+    float: right;
+    margin-right: 10%;
+}
